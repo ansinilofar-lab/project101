@@ -1,0 +1,58 @@
+{
+  "selected_model": "Logistic Regression",
+  "metrics": {
+    "Logistic Regression": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          8,
+          0
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    }
+  },
+  "feature_names": [
+    "url_length",
+    "dot_count",
+    "hyphen_count",
+    "digit_count",
+    "special_char_count",
+    "has_https",
+    "is_ip_address",
+    "subdomain_count",
+    "suspicious_keyword_count",
+    "domain_length",
+    "path_length",
+    "parameter_count",
+    "has_at_symbol",
+    "url_entropy",
+    "is_shortened"
+  ],
+  "dataset_rows": 60,
+  "note": "Metrics are from a random split of the bundled illustrative dataset; they are not a real-world benchmark."
+}
